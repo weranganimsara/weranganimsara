@@ -87,16 +87,16 @@
   <rect x="24" y="100" width="436" height="16" fill="#f8fafc" />
   <text x="44" y="104" class="text-mono" font-size="11" fill="#0284c7" font-weight="700">VISUAL.MAP // IDENTITY_MATRIX</text>
 
-  <!-- ASCII / Dot-Matrix Profile Block -->
+  <!-- ASCII Profile Block -->
   <g class="text-mono" font-size="9" fill="#0369a1" opacity="0.9" letter-spacing="1">
     <text x="44" y="145">╔═════════════════════════════════════════════╗</text>
-    <text x="44" y="162">║  [SYS_ID]  : W-NIMSARA-07                    ║</text>
+    <text x="44" y="162">║  [SYS_ID]  : W-NIMSARA-07 (WERA Xx‿x𝙓)      ║</text>
     <text x="44" y="179">║  [ORIGIN]  : LK // ASIA-SOUTH-1              ║</text>
-    <text x="44" y="196">║  [STATUS]  : FULL-STACK &amp; NETWORK ARCHITECT  ║</text>
+    <text x="44" y="196">║  [STATUS]  : FULL-STACK &amp; VPS ARCHITECT      ║</text>
     <text x="44" y="213">╚═════════════════════════════════════════════╝</text>
   </g>
 
-  <!-- Radar / Network Throughput Graph -->
+  <!-- Radar / Throughput Graph -->
   <g transform="translate(60, 240)">
     <rect width="364" height="170" rx="12" fill="#f8fafc" stroke="#e2e8f0" stroke-width="1" />
     <!-- Grid -->
@@ -119,7 +119,7 @@
   <g transform="translate(44, 435)">
     <rect width="396" height="135" rx="10" fill="#f8fafc" stroke="#e2e8f0" stroke-width="1" />
     <text x="16" y="28" class="text-mono" font-size="12" fill="#059669" font-weight="700">$ whoami</text>
-    <text x="16" y="48" class="text-mono" font-size="11" fill="#1e293b" font-weight="600">Weranga Nimsara (Architect &amp; Builder)</text>
+    <text x="16" y="48" class="text-mono" font-size="11" fill="#1e293b" font-weight="600">Weranga Nimsara (WERA Xx‿x𝙓)</text>
     
     <text x="16" y="74" class="text-mono" font-size="12" fill="#059669" font-weight="700">$ cat current_mission.txt</text>
     <text x="16" y="94" class="text-mono" font-size="11" fill="#475569">"Engineering high-throughput networks,</text>
@@ -128,10 +128,8 @@
   </g>
 
   <!-- ================= RIGHT COLUMN: 60% (x: 480 to 1156) ================= -->
-  <!-- Right Panel Container -->
   <rect x="476" y="82" width="680" height="504" rx="16" fill="#ffffff" stroke="#e2e8f0" stroke-width="1" />
   
-  <!-- Right Panel Header Bar -->
   <rect x="476" y="82" width="680" height="34" rx="16" fill="#f8fafc" />
   <rect x="476" y="100" width="680" height="16" fill="#f8fafc" />
   <text x="498" y="104" class="text-mono" font-size="11" fill="#4f46e5" font-weight="700">SYSTEM.INFO // DEVELOPER_IDENTITY</text>
@@ -139,99 +137,135 @@
   <!-- Name & Headline -->
   <g transform="translate(506, 150)">
     <text x="0" y="0" class="text-title" font-size="34" fill="#0f172a" letter-spacing="-0.5">Weranga Nimsara</text>
-    <text x="0" y="26" class="text-mono" font-size="14" fill="url(#headerGradLight)" font-weight="700">FULL-STACK ENGINEER · NETWORK &amp; SECURITY SPECIALIST</text>
-    <text x="0" y="48" class="text-sans" font-size="13" fill="#475569">Designing robust cloud services, privacy tunneling protocols, and modern full-stack web architectures.</text>
+    <text x="0" y="26" class="text-mono" font-size="13" fill="url(#headerGradLight)" font-weight="700">FULL-STACK ENGINEER · NETWORK &amp; VPS ARCHITECT</text>
+    <text x="0" y="48" class="text-sans" font-size="13" fill="#475569">Building scalable cloud backends, 3X-UI tunnels, autonomous AI, &amp; interactive web apps.</text>
   </g>
 
-  <!-- Stat Chips / Highlights Grid -->
-  <g transform="translate(506, 225)">
+  <!-- Stat Chips / Highlights Grid (3 Columns) -->
+  <g transform="translate(506, 222)">
     <!-- Card 1 -->
-    <rect x="0" y="0" width="195" height="74" rx="10" fill="#f8fafc" stroke="#e2e8f0" stroke-width="1" />
-    <text x="16" y="24" class="text-mono" font-size="10" fill="#64748b" font-weight="600">PRIMARY SPEC</text>
-    <text x="16" y="46" class="text-title" font-size="15" fill="#0284c7">Full-Stack Dev</text>
-    <text x="16" y="62" class="text-mono" font-size="9" fill="#059669" font-weight="600">Node.js · Python · Web</text>
+    <g transform="translate(0, 0)">
+      <rect width="196" height="74" rx="10" fill="#f8fafc" stroke="#e2e8f0" stroke-width="1" />
+      <text x="16" y="24" class="text-mono" font-size="10" fill="#64748b" font-weight="600">WEB DEVELOPMENT</text>
+      <text x="16" y="46" class="text-title" font-size="14" fill="#0284c7">Full-Stack &amp; APIs</text>
+      <text x="16" y="62" class="text-mono" font-size="9.5" fill="#059669" font-weight="600">Node.js · TS · Express</text>
+    </g>
 
     <!-- Card 2 -->
-    <rect x="212" y="0" width="195" height="74" rx="10" fill="#f8fafc" stroke="#e2e8f0" stroke-width="1" />
-    <text x="16" y="24" class="text-mono" font-size="10" fill="#64748b" font-weight="600">INFRA &amp; PROTOCOLS</text>
-    <text x="16" y="46" class="text-title" font-size="15" fill="#4f46e5">Network Security</text>
-    <text x="16" y="62" class="text-mono" font-size="9" fill="#64748b" font-weight="600">3X-UI · Trojan · VLESS</text>
+    <g transform="translate(212, 0)">
+      <rect width="196" height="74" rx="10" fill="#f8fafc" stroke="#e2e8f0" stroke-width="1" />
+      <text x="16" y="24" class="text-mono" font-size="10" fill="#64748b" font-weight="600">INFRA &amp; VPS</text>
+      <text x="16" y="46" class="text-title" font-size="14" fill="#4f46e5">3X-UI &amp; Security</text>
+      <text x="16" y="62" class="text-mono" font-size="9.5" fill="#7c3aed" font-weight="600">Trojan · VLESS · Linux</text>
+    </g>
 
     <!-- Card 3 -->
-    <rect x="424" y="0" width="195" height="74" rx="10" fill="#f8fafc" stroke="#e2e8f0" stroke-width="1" />
-    <text x="16" y="24" class="text-mono" font-size="10" fill="#64748b" font-weight="600">LOCATION &amp; STATUS</text>
-    <text x="16" y="46" class="text-title" font-size="15" fill="#7c3aed">Available</text>
-    <text x="16" y="62" class="text-mono" font-size="9" fill="#0284c7" font-weight="600">Sri Lanka (UTC+5:30)</text>
+    <g transform="translate(424, 0)">
+      <rect width="196" height="74" rx="10" fill="#f8fafc" stroke="#e2e8f0" stroke-width="1" />
+      <text x="16" y="24" class="text-mono" font-size="10" fill="#64748b" font-weight="600">SG HOME ECOSYSTEM</text>
+      <text x="16" y="46" class="text-title" font-size="14" fill="#059669">PanelX &amp; Services</text>
+      <text x="16" y="62" class="text-mono" font-size="9.5" fill="#d97706" font-weight="600">100k+ Monthly Users</text>
+    </g>
   </g>
 
   <!-- Core Stack Badges -->
-  <g transform="translate(506, 325)">
+  <g transform="translate(506, 322)">
     <text x="0" y="0" class="text-mono" font-size="11" fill="#475569" font-weight="700">TECHNICAL ARSENAL // CORE CAPABILITIES</text>
 
-    <!-- Row 1: Languages & Backend -->
+    <!-- Row 1: Languages & Frontend / Backend -->
     <g transform="translate(0, 16)">
-      <!-- JavaScript -->
-      <rect x="0" y="0" width="102" height="30" rx="6" fill="#fef9c3" stroke="#fde047" stroke-width="1" />
-      <text x="12" y="19" class="text-mono" font-size="11" fill="#854d0e" font-weight="700">JavaScript</text>
+      <!-- TypeScript -->
+      <g transform="translate(0, 0)">
+        <rect width="94" height="30" rx="6" fill="#e0f2fe" stroke="#bae6fd" stroke-width="1" />
+        <text x="12" y="19" class="text-mono" font-size="11" fill="#0284c7" font-weight="700">TypeScript</text>
+      </g>
 
-      <!-- Python -->
-      <rect x="110" y="0" width="85" height="30" rx="6" fill="#e0f2fe" stroke="#bae6fd" stroke-width="1" />
-      <text x="12" y="19" class="text-mono" font-size="11" fill="#0369a1" font-weight="700">Python</text>
+      <!-- JavaScript -->
+      <g transform="translate(102, 0)">
+        <rect width="96" height="30" rx="6" fill="#fef9c3" stroke="#fde047" stroke-width="1" />
+        <text x="12" y="19" class="text-mono" font-size="11" fill="#854d0e" font-weight="700">JavaScript</text>
+      </g>
 
       <!-- Node.js -->
-      <rect x="203" y="0" width="88" height="30" rx="6" fill="#dcfce7" stroke="#bbf7d0" stroke-width="1" />
-      <text x="12" y="19" class="text-mono" font-size="11" fill="#15803d" font-weight="700">Node.js</text>
+      <g transform="translate(206, 0)">
+        <rect width="82" height="30" rx="6" fill="#dcfce7" stroke="#bbf7d0" stroke-width="1" />
+        <text x="12" y="19" class="text-mono" font-size="11" fill="#15803d" font-weight="700">Node.js</text>
+      </g>
+
+      <!-- Python -->
+      <g transform="translate(296, 0)">
+        <rect width="78" height="30" rx="6" fill="#e0f2fe" stroke="#bae6fd" stroke-width="1" />
+        <text x="12" y="19" class="text-mono" font-size="11" fill="#0369a1" font-weight="700">Python</text>
+      </g>
 
       <!-- Express.js -->
-      <rect x="299" y="0" width="100" height="30" rx="6" fill="#f1f5f9" stroke="#cbd5e1" stroke-width="1" />
-      <text x="12" y="19" class="text-mono" font-size="11" fill="#334155" font-weight="700">Express.js</text>
+      <g transform="translate(382, 0)">
+        <rect width="94" height="30" rx="6" fill="#f1f5f9" stroke="#cbd5e1" stroke-width="1" />
+        <text x="12" y="19" class="text-mono" font-size="11" fill="#334155" font-weight="700">Express.js</text>
+      </g>
 
-      <!-- Linux / Bash -->
-      <rect x="407" y="0" width="105" height="30" rx="6" fill="#ffedd5" stroke="#fed7aa" stroke-width="1" />
-      <text x="12" y="19" class="text-mono" font-size="11" fill="#c2410c" font-weight="700">Linux / Bash</text>
+      <!-- React / Web -->
+      <g transform="translate(484, 0)">
+        <rect width="136" height="30" rx="6" fill="#cffafe" stroke="#a5f3fc" stroke-width="1" />
+        <text x="12" y="19" class="text-mono" font-size="11" fill="#0e7490" font-weight="700">React / UI Glass</text>
+      </g>
     </g>
 
     <!-- Row 2: Systems, Cloud & Protocols -->
     <g transform="translate(0, 56)">
       <!-- 3X-UI / Xray -->
-      <rect x="0" y="0" width="124" height="30" rx="6" fill="#e0f2fe" stroke="#7dd3fc" stroke-width="1" />
-      <text x="12" y="19" class="text-mono" font-size="11" fill="#0284c7" font-weight="700">3X-UI / Xray-core</text>
+      <g transform="translate(0, 0)">
+        <rect width="118" height="30" rx="6" fill="#e0f2fe" stroke="#7dd3fc" stroke-width="1" />
+        <text x="12" y="19" class="text-mono" font-size="11" fill="#0284c7" font-weight="700">3X-UI / Xray</text>
+      </g>
 
-      <!-- Network Tunneling -->
-      <rect x="132" y="0" width="138" height="30" rx="6" fill="#ede9fe" stroke="#ddd6fe" stroke-width="1" />
-      <text x="12" y="19" class="text-mono" font-size="11" fill="#5b21b6" font-weight="700">Network Tunneling</text>
+      <!-- Trojan / VLESS -->
+      <g transform="translate(126, 0)">
+        <rect width="126" height="30" rx="6" fill="#ede9fe" stroke="#ddd6fe" stroke-width="1" />
+        <text x="12" y="19" class="text-mono" font-size="11" fill="#5b21b6" font-weight="700">Trojan / VLESS</text>
+      </g>
 
-      <!-- REST APIs -->
-      <rect x="278" y="0" width="94" height="30" rx="6" fill="#fae8ff" stroke="#f5d0fe" stroke-width="1" />
-      <text x="12" y="19" class="text-mono" font-size="11" fill="#86198f" font-weight="700">REST APIs</text>
+      <!-- Linux VPS -->
+      <g transform="translate(260, 0)">
+        <rect width="96" height="30" rx="6" fill="#ffedd5" stroke="#fed7aa" stroke-width="1" />
+        <text x="12" y="19" class="text-mono" font-size="11" fill="#c2410c" font-weight="700">Linux VPS</text>
+      </g>
 
-      <!-- Git / CI-CD -->
-      <rect x="380" y="0" width="85" height="30" rx="6" fill="#ffe4e6" stroke="#fecdd3" stroke-width="1" />
-      <text x="12" y="19" class="text-mono" font-size="11" fill="#be123c" font-weight="700">Git / VCS</text>
+      <!-- Nginx / SSL -->
+      <g transform="translate(364, 0)">
+        <rect width="102" height="30" rx="6" fill="#dcfce7" stroke="#bbf7d0" stroke-width="1" />
+        <text x="12" y="19" class="text-mono" font-size="11" fill="#15803d" font-weight="700">Nginx / SSL</text>
+      </g>
+
+      <!-- Cloudflare -->
+      <g transform="translate(474, 0)">
+        <rect width="146" height="30" rx="6" fill="#fef3c7" stroke="#fde68a" stroke-width="1" />
+        <text x="12" y="19" class="text-mono" font-size="11" fill="#b45309" font-weight="700">Cloudflare DNS/CDN</text>
+      </g>
     </g>
   </g>
 
   <!-- Connect / Social Bar -->
   <g transform="translate(506, 460)">
-    <rect width="619" height="96" rx="12" fill="#f8fafc" stroke="#e2e8f0" stroke-width="1" />
-    <text x="20" y="28" class="text-mono" font-size="11" fill="#64748b" font-weight="600">INTERCONNECT CHANNELS</text>
+    <rect width="620" height="96" rx="12" fill="#f8fafc" stroke="#e2e8f0" stroke-width="1" />
+    <text x="20" y="26" class="text-mono" font-size="11" fill="#64748b" font-weight="600">INTERCONNECT CHANNELS</text>
 
-    <!-- GitHub Badge -->
-    <g transform="translate(20, 44)">
+    <!-- Portfolio Badge -->
+    <g transform="translate(20, 42)">
       <rect width="180" height="36" rx="8" fill="#ffffff" stroke="#cbd5e1" stroke-width="1" />
-      <text x="14" y="23" class="text-mono" font-size="12" fill="#0f172a" font-weight="700">github/weranganimsara</text>
+      <text x="14" y="23" class="text-mono" font-size="11.5" fill="#0284c7" font-weight="700">🌐 weraxx.sghome.space</text>
     </g>
 
     <!-- Email Badge -->
-    <g transform="translate(212, 44)">
-      <rect width="215" height="36" rx="8" fill="#ffffff" stroke="#cbd5e1" stroke-width="1" />
-      <text x="14" y="23" class="text-mono" font-size="11" fill="#0284c7" font-weight="600">weranganimsara2007@gmail.com</text>
+    <g transform="translate(208, 42)">
+      <rect width="232" height="36" rx="8" fill="#ffffff" stroke="#cbd5e1" stroke-width="1" />
+      <text x="14" y="23" class="text-mono" font-size="11" fill="#334155" font-weight="600">✉️ weranganimsara2007@gmail.com</text>
     </g>
 
     <!-- Location Badge -->
-    <g transform="translate(439, 44)">
-      <rect width="160" height="36" rx="8" fill="#ffffff" stroke="#cbd5e1" stroke-width="1" />
-      <text x="14" y="23" class="text-mono" font-size="11" fill="#059669" font-weight="600">📍 Sri Lanka</text>
+    <g transform="translate(448, 42)">
+      <rect width="152" height="36" rx="8" fill="#ffffff" stroke="#cbd5e1" stroke-width="1" />
+      <text x="14" y="23" class="text-mono" font-size="11" fill="#059669" font-weight="700">📍 Sri Lanka [LK]</text>
     </g>
   </g>
 </svg>
