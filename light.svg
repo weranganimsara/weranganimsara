@@ -1,0 +1,234 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1180 610" width="1180" height="610" fill="none">
+  <defs>
+    <!-- Background Gradients -->
+    <linearGradient id="bgGradLight" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#f8fafc" />
+      <stop offset="50%" stop-color="#f1f5f9" />
+      <stop offset="100%" stop-color="#e2e8f0" />
+    </linearGradient>
+
+    <linearGradient id="accentGradLight" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#0284c7" />
+      <stop offset="50%" stop-color="#4f46e5" />
+      <stop offset="100%" stop-color="#9333ea" />
+    </linearGradient>
+
+    <linearGradient id="cardGradLight" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#ffffff" stop-opacity="0.95" />
+      <stop offset="100%" stop-color="#f8fafc" stop-opacity="0.9" />
+    </linearGradient>
+
+    <linearGradient id="badgeGradLight" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#f1f5f9" />
+      <stop offset="100%" stop-color="#e2e8f0" />
+    </linearGradient>
+
+    <!-- Grid Pattern -->
+    <pattern id="gridLight" width="30" height="30" patternUnits="userSpaceOnUse">
+      <path d="M 30 0 L 0 0 0 30" fill="none" stroke="#cbd5e1" stroke-width="0.7" stroke-opacity="0.5" />
+      <circle cx="30" cy="30" r="0.8" fill="#0284c7" fill-opacity="0.3" />
+    </pattern>
+  </defs>
+
+  <style>
+    @keyframes blinkLight {
+      0%, 49% { opacity: 1; }
+      50%, 100% { opacity: 0; }
+    }
+    @keyframes scanlineLight {
+      0% { transform: translateY(0px); }
+      100% { transform: translateY(160px); }
+    }
+    .cursor-blink-light { animation: blinkLight 1s infinite; }
+    .scan-line-light { animation: scanlineLight 4s linear infinite; }
+    .font-mono { font-family: 'JetBrains Mono', 'Fira Code', 'Cascadia Code', monospace; }
+    .font-sans { font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; }
+  </style>
+
+  <!-- Outer Frame -->
+  <rect x="1" y="1" width="1178" height="608" rx="20" ry="20" fill="url(#bgGradLight)" stroke="#cbd5e1" stroke-width="1.5" />
+  
+  <!-- Subtle Grid Background -->
+  <rect x="1" y="1" width="1178" height="608" rx="20" ry="20" fill="url(#gridLight)" />
+
+  <!-- Ambient Light Accents -->
+  <circle cx="180" cy="140" r="180" fill="#38bdf8" fill-opacity="0.1" />
+  <circle cx="980" cy="460" r="200" fill="#818cf8" fill-opacity="0.1" />
+
+  <!-- ================= TOP WINDOW CONTROLS ================= -->
+  <rect x="1" y="1" width="1178" height="42" rx="20" ry="20" fill="#ffffff" fill-opacity="0.9" />
+  <rect x="1" y="22" width="1178" height="20" fill="#ffffff" fill-opacity="0.9" />
+  <line x1="1" y1="42" x2="1179" y2="42" stroke="#e2e8f0" stroke-width="1" />
+
+  <!-- Window Buttons -->
+  <circle cx="32" cy="21" r="6" fill="#ff5f56" />
+  <circle cx="52" cy="21" r="6" fill="#ffbd2e" />
+  <circle cx="72" cy="21" r="6" fill="#27c93f" />
+
+  <!-- Top Center Title Tab -->
+  <rect x="440" y="8" width="300" height="26" rx="6" fill="#f1f5f9" stroke="#cbd5e1" stroke-width="1" />
+  <circle cx="456" cy="21" r="3.5" fill="#0284c7" />
+  <text x="470" y="25" fill="#475569" class="font-mono" font-size="11" font-weight="600">wera@terminal: ~/identity.sys</text>
+
+  <!-- Top Right Status Badge -->
+  <rect x="1010" y="10" width="138" height="22" rx="11" fill="#ecfdf5" stroke="#10b981" stroke-width="1" />
+  <circle cx="1025" cy="21" r="3.5" fill="#059669" />
+  <text x="1036" y="25" fill="#047857" class="font-mono" font-size="10.5" font-weight="600">STATUS: ACTIVE</text>
+
+  <!-- ================= LEFT COLUMN: VISUAL / IDENTITY ================= -->
+  <g transform="translate(32, 60)">
+    <!-- Terminal Outer Frame -->
+    <rect x="0" y="0" width="410" height="518" rx="14" fill="url(#cardGradLight)" stroke="#cbd5e1" stroke-width="1.2" />
+
+    <!-- Terminal Header -->
+    <rect x="0" y="0" width="410" height="36" rx="14" fill="#f8fafc" />
+    <rect x="0" y="20" width="410" height="16" fill="#f8fafc" />
+    <line x1="0" y1="36" x2="410" y2="36" stroke="#e2e8f0" stroke-width="1" />
+    <text x="18" y="23" fill="#64748b" class="font-mono" font-size="11" font-weight="600">VISUAL.MAP // IDENTITY_MATRIX</text>
+    <circle cx="390" cy="18" r="3" fill="#0284c7" />
+
+    <!-- Cyber Matrix / ASCII Box -->
+    <g transform="translate(18, 50)">
+      <rect x="0" y="0" width="374" height="186" rx="10" fill="#f8fafc" stroke="#cbd5e1" stroke-width="1" />
+      
+      <g opacity="0.15">
+        <line x1="0" y1="1" x2="374" y2="1" stroke="#0284c7" stroke-width="1.5" class="scan-line-light" />
+      </g>
+
+      <!-- Matrix Dot Grid Avatar Graphic -->
+      <g transform="translate(24, 20)">
+        <text x="0" y="16" fill="#0284c7" class="font-mono" font-size="11" letter-spacing="1">╔═══════════════════════════════════╗</text>
+        <text x="0" y="34" fill="#0284c7" class="font-mono" font-size="11">║   WERA Xx_xT  ::  CORE IDENTITY   ║</text>
+        <text x="0" y="52" fill="#0284c7" class="font-mono" font-size="11">╠═══════════════════════════════════╣</text>
+        <text x="0" y="70" fill="#334155" class="font-mono" font-size="11">║  NODE ID   : SG-HOME-PRIMARY      ║</text>
+        <text x="0" y="88" fill="#334155" class="font-mono" font-size="11">║  LOCATION  : SRI LANKA [LK]       ║</text>
+        <text x="0" y="106" fill="#334155" class="font-mono" font-size="11">║  ROLE      : SYSTEM &amp; WEB BUILDER ║</text>
+        <text x="0" y="124" fill="#334155" class="font-mono" font-size="11">║  ACCESS    : FULL PRIVILEGE [0x0] ║</text>
+        <text x="0" y="142" fill="#0284c7" class="font-mono" font-size="11">╚═══════════════════════════════════╝</text>
+      </g>
+    </g>
+
+    <!-- Terminal Prompt & Command Log -->
+    <g transform="translate(18, 252)">
+      <rect x="0" y="0" width="374" height="160" rx="10" fill="#f8fafc" stroke="#cbd5e1" stroke-width="1" />
+      <g transform="translate(16, 26)">
+        <text x="0" y="0" fill="#0284c7" class="font-mono" font-size="11" font-weight="700">user@wera-arch:~$</text>
+        <text x="135" y="0" fill="#0f172a" class="font-mono" font-size="11">neofetch --brief</text>
+        
+        <text x="0" y="24" fill="#475569" class="font-mono" font-size="10.5">OS: Linux / Ubuntu / Cloud Core</text>
+        <text x="0" y="44" fill="#475569" class="font-mono" font-size="10.5">Host: sghome.space [vServer]</text>
+        <text x="0" y="64" fill="#475569" class="font-mono" font-size="10.5">Uptime: 99.98% / High Availability</text>
+        <text x="0" y="84" fill="#475569" class="font-mono" font-size="10.5">Packages: Node.js, TS, Python, Docker</text>
+        
+        <text x="0" y="112" fill="#059669" class="font-mono" font-size="11" font-weight="700">&gt;&gt; Ready to execute</text>
+        <rect x="156" y="101" width="8" height="14" fill="#0284c7" class="cursor-blink-light" />
+      </g>
+    </g>
+
+    <!-- Bottom Tagline Pill -->
+    <g transform="translate(18, 430)">
+      <rect x="0" y="0" width="374" height="68" rx="10" fill="#ffffff" stroke="#cbd5e1" stroke-width="1" />
+      <circle cx="20" cy="24" r="4" fill="#4f46e5" />
+      <text x="34" y="28" fill="#0f172a" class="font-sans" font-size="12" font-weight="600">"Building ideas into digital experiences."</text>
+      <text x="34" y="48" fill="#64748b" class="font-mono" font-size="10">Digital Universe — Where Ideas Become Reality.</text>
+    </g>
+  </g>
+
+  <!-- ================= RIGHT COLUMN: SYSTEM.INFO ================= -->
+  <g transform="translate(466, 60)">
+    <!-- Right Outer Frame -->
+    <rect x="0" y="0" width="682" height="518" rx="14" fill="url(#cardGradLight)" stroke="#cbd5e1" stroke-width="1.2" />
+
+    <!-- Right Header -->
+    <rect x="0" y="0" width="682" height="36" rx="14" fill="#f8fafc" />
+    <rect x="0" y="20" width="682" height="16" fill="#f8fafc" />
+    <line x1="0" y1="36" x2="682" y2="36" stroke="#e2e8f0" stroke-width="1" />
+    <text x="24" y="23" fill="#64748b" class="font-mono" font-size="11" font-weight="600">SYSTEM.INFO // DEVELOPER_PROFILE.CONF</text>
+    <text x="560" y="23" fill="#94a3b8" class="font-mono" font-size="10.5">REV: 2026.09</text>
+
+    <!-- Identity & Headline -->
+    <g transform="translate(26, 60)">
+      <!-- Name Title with gradient -->
+      <text x="0" y="28" fill="url(#accentGradLight)" class="font-sans" font-size="32" font-weight="800" letter-spacing="-0.5">Weranga Nimsara</text>
+      <rect x="300" y="8" width="105" height="24" rx="6" fill="#ede9fe" stroke="#a78bfa" stroke-width="1" />
+      <text x="312" y="24" fill="#5b21b6" class="font-mono" font-size="11" font-weight="700">WERA Xx_xT</text>
+
+      <!-- Professional Headline -->
+      <text x="0" y="56" fill="#1e293b" class="font-sans" font-size="15" font-weight="600">
+        Full-Stack Developer &amp; Cloud Systems Builder
+      </text>
+
+      <!-- Sub-headline / Spec -->
+      <text x="0" y="76" fill="#64748b" class="font-mono" font-size="11.5">
+        Web Applications · Cloud Services · Proxy Networks · UI/UX Design
+      </text>
+    </g>
+
+    <!-- Specialization Domain Badges -->
+    <g transform="translate(26, 160)">
+      <!-- Badge 1: Web Apps -->
+      <rect x="0" y="0" width="144" height="32" rx="7" fill="url(#badgeGradLight)" stroke="#cbd5e1" stroke-width="1" />
+      <circle cx="16" cy="16" r="3.5" fill="#0284c7" />
+      <text x="28" y="20" fill="#1e293b" class="font-mono" font-size="11" font-weight="600">Web Engineering</text>
+
+      <!-- Badge 2: Cloud & Servers -->
+      <rect x="156" y="0" width="144" height="32" rx="7" fill="url(#badgeGradLight)" stroke="#cbd5e1" stroke-width="1" />
+      <circle cx="172" cy="16" r="3.5" fill="#4f46e5" />
+      <text x="184" y="20" fill="#1e293b" class="font-mono" font-size="11" font-weight="600">Cloud &amp; Servers</text>
+
+      <!-- Badge 3: Network & Security -->
+      <rect x="312" y="0" width="156" height="32" rx="7" fill="url(#badgeGradLight)" stroke="#cbd5e1" stroke-width="1" />
+      <circle cx="328" cy="16" r="3.5" fill="#059669" />
+      <text x="340" y="20" fill="#1e293b" class="font-mono" font-size="11" font-weight="600">Network Systems</text>
+
+      <!-- Badge 4: UI/UX & Creative -->
+      <rect x="480" y="0" width="150" height="32" rx="7" fill="url(#badgeGradLight)" stroke="#cbd5e1" stroke-width="1" />
+      <circle cx="496" cy="16" r="3.5" fill="#e11d48" />
+      <text x="508" y="20" fill="#1e293b" class="font-mono" font-size="11" font-weight="600">UI/UX &amp; Creative</text>
+    </g>
+
+    <!-- Tech Stack Grid Section -->
+    <g transform="translate(26, 212)">
+      <!-- Panel Header -->
+      <text x="0" y="0" fill="#475569" class="font-mono" font-size="11" font-weight="700" letter-spacing="0.5">TECHNICAL ARSENAL</text>
+      <line x1="140" y1="-4" x2="630" y2="-4" stroke="#cbd5e1" stroke-width="1" />
+
+      <!-- Row 1: Languages & Frontend -->
+      <g transform="translate(0, 16)">
+        <rect x="0" y="0" width="630" height="52" rx="8" fill="#ffffff" stroke="#cbd5e1" stroke-width="1" />
+        <text x="16" y="22" fill="#64748b" class="font-mono" font-size="10" font-weight="600">LANGUAGES &amp; FRONTEND</text>
+        <text x="16" y="40" fill="#0369a1" class="font-mono" font-size="12" font-weight="600">TypeScript · JavaScript (ESNext) · HTML5 · Modern CSS3 · React / Vite</text>
+      </g>
+
+      <!-- Row 2: Backend & Runtime -->
+      <g transform="translate(0, 78)">
+        <rect x="0" y="0" width="630" height="52" rx="8" fill="#ffffff" stroke="#cbd5e1" stroke-width="1" />
+        <text x="16" y="22" fill="#64748b" class="font-mono" font-size="10" font-weight="600">BACKEND &amp; RUNTIME</text>
+        <text x="16" y="40" fill="#4338ca" class="font-mono" font-size="12" font-weight="600">Node.js · Express · Python · REST APIs · Realtime WebSockets</text>
+      </g>
+
+      <!-- Row 3: Cloud, Network & Systems -->
+      <g transform="translate(0, 140)">
+        <rect x="0" y="0" width="630" height="52" rx="8" fill="#ffffff" stroke="#cbd5e1" stroke-width="1" />
+        <text x="16" y="22" fill="#64748b" class="font-mono" font-size="10" font-weight="600">INFRASTRUCTURE &amp; NETWORKING</text>
+        <text x="16" y="40" fill="#047857" class="font-mono" font-size="12" font-weight="600">Linux (Ubuntu/Debian) · Cloudflare · 3X-UI · Trojan / VLESS · Nginx Proxy</text>
+      </g>
+    </g>
+
+    <!-- Bottom Ecosystem / Project Strip -->
+    <g transform="translate(26, 426)">
+      <rect x="0" y="0" width="630" height="68" rx="10" fill="#ffffff" stroke="#cbd5e1" stroke-width="1" />
+      
+      <g transform="translate(18, 18)">
+        <circle cx="4" cy="6" r="3.5" fill="#d97706" />
+        <text x="16" y="10" fill="#0f172a" class="font-sans" font-size="12" font-weight="700">SG HOME ECOSYSTEM</text>
+        <text x="16" y="30" fill="#64748b" class="font-mono" font-size="11">PanelX · Gift Network · Cloud VPN Nodes · High-Performance Proxies</text>
+      </g>
+
+      <g transform="translate(480, 22)">
+        <rect x="0" y="0" width="132" height="26" rx="6" fill="#eff6ff" stroke="#3b82f6" stroke-width="1" />
+        <text x="18" y="17" fill="#1d4ed8" class="font-mono" font-size="10.5" font-weight="600">sghome.space ↗</text>
+      </g>
+    </g>
+  </g>
+</svg>
