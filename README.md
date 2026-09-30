@@ -11,6 +11,7 @@
 
 [![Portfolio](https://img.shields.io/badge/Portfolio-weraxx.sghome.space-0284c7?style=for-the-badge&logo=google-chrome&logoColor=white)](https://weraxx.sghome.space)
 [![Ecosystem](https://img.shields.io/badge/Ecosystem-SG%20Home-818cf8?style=for-the-badge&logo=server&logoColor=white)](https://sghome.space)
+[![Certified](https://img.shields.io/badge/Verified%20Cert-freeCodeCamp%20A2%20English-0a0a23?style=for-the-badge&logo=freecodecamp&logoColor=white)](https://freecodecamp.org/certification/fcc-357a9b11-bde4-48dc-92f3-7b936ec15724/a2-english-for-developers)
 [![VPS Infra](https://img.shields.io/badge/VPS%20Infra-Ubuntu%20%7C%203X--UI-f59e0b?style=for-the-badge&logo=ubuntu&logoColor=white)](https://github.com/weranganimsara)
 [![Location](https://img.shields.io/badge/Location-Sri%20Lanka%20🇱🇰-059669?style=for-the-badge&logo=googlemaps&logoColor=white)](https://github.com/weranganimsara)
 [![Contact](https://img.shields.io/badge/Email-Get%20in%20Touch-e11d48?style=for-the-badge&logo=gmail&logoColor=white)](mailto:weranganimsara2007@gmail.com)
@@ -32,6 +33,14 @@
 
 > **🌐 Digital Universe — Where Ideas Become Reality.**  
 > *Building robust digital experiences from zero to production.*
+
+---
+
+### 📜 Verified Certifications & Credentials
+
+| Certification | Issuing Organization | Issue Date | Official Verification |
+|:---|:---|:---|:---:|
+| **A2 English for Developers (Beta)**<br><sub>CEFR Standard Grammar, Listening & Reading Competence</sub> | **freeCodeCamp** | October 1, 2026 | [**Verify Certificate ↗**](https://freecodecamp.org/certification/fcc-357a9b11-bde4-48dc-92f3-7b936ec15724/a2-english-for-developers) |
 
 ---
 
