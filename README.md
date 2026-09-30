@@ -11,7 +11,8 @@
 
 [![Portfolio](https://img.shields.io/badge/Portfolio-weraxx.sghome.space-0284c7?style=for-the-badge&logo=google-chrome&logoColor=white)](https://weraxx.sghome.space)
 [![Ecosystem](https://img.shields.io/badge/Ecosystem-SG%20Home-818cf8?style=for-the-badge&logo=server&logoColor=white)](https://sghome.space)
-[![Certified](https://img.shields.io/badge/Verified%20Cert-freeCodeCamp%20A2%20English-0a0a23?style=for-the-badge&logo=freecodecamp&logoColor=white)](https://freecodecamp.org/certification/fcc-357a9b11-bde4-48dc-92f3-7b936ec15724/a2-english-for-developers)
+[![Microsoft Learn](https://img.shields.io/badge/Microsoft%20Learn-WerangaNimsara--8637-0078D4?style=for-the-badge&logo=microsoft&logoColor=white)](https://learn.microsoft.com/en-us/users/weranganimsara-8637/transcript)
+[![freeCodeCamp Certified](https://img.shields.io/badge/Verified%20Cert-freeCodeCamp%20A2%20English-0a0a23?style=for-the-badge&logo=freecodecamp&logoColor=white)](https://freecodecamp.org/certification/fcc-357a9b11-bde4-48dc-92f3-7b936ec15724/a2-english-for-developers)
 [![VPS Infra](https://img.shields.io/badge/VPS%20Infra-Ubuntu%20%7C%203X--UI-f59e0b?style=for-the-badge&logo=ubuntu&logoColor=white)](https://github.com/weranganimsara)
 [![Location](https://img.shields.io/badge/Location-Sri%20Lanka%20🇱🇰-059669?style=for-the-badge&logo=googlemaps&logoColor=white)](https://github.com/weranganimsara)
 [![Contact](https://img.shields.io/badge/Email-Get%20in%20Touch-e11d48?style=for-the-badge&logo=gmail&logoColor=white)](mailto:weranganimsara2007@gmail.com)
@@ -38,9 +39,10 @@
 
 ### 📜 Verified Certifications & Credentials
 
-| Certification | Issuing Organization | Issue Date | Official Verification |
+| Certification / Credential | Issuing Organization | Issue Date | Official Verification |
 |:---|:---|:---|:---:|
 | **A2 English for Developers (Beta)**<br><sub>CEFR Standard Grammar, Listening & Reading Competence</sub> | **freeCodeCamp** | October 1, 2026 | [**Verify Certificate ↗**](https://freecodecamp.org/certification/fcc-357a9b11-bde4-48dc-92f3-7b936ec15724/a2-english-for-developers) |
+| **Official Microsoft Transcript & AI/C# Credentials**<br><sub>Responsible AI, Prompt Engineering with Copilot & C# Core Systems</sub> | **Microsoft Learn** | October 1, 2026 | [**Verify Transcript ↗**](https://learn.microsoft.com/en-us/users/weranganimsara-8637/transcript) |
 
 ---
 
@@ -61,6 +63,7 @@
       <h4>⚙️ Backend & API Engineering</h4>
       <ul>
         <li><b>Node.js & Express</b> — Scalable RESTful APIs & high-load microservices</li>
+        <li><b>C# & .NET Core</b> — Typed system programming, console & enterprise apps</li>
         <li><b>Python</b> — Automation scripts, AI system tools, payload decryption</li>
         <li><b>MongoDB & Mongoose</b> — Data schemas, transactions & real-time caching</li>
         <li><b>WebSockets</b> — Bi-directional event streaming & real-time messaging</li>
@@ -153,8 +156,9 @@ Featured Deployments:
 
 <a href="https://weraxx.sghome.space"><img src="https://img.shields.io/badge/Personal%20Space-000000?style=for-the-badge&logo=aboutdotme&logoColor=white" alt="Personal Website" /></a>
 <a href="https://sghome.space"><img src="https://img.shields.io/badge/SG%20Home-818cf8?style=for-the-badge&logo=server&logoColor=white" alt="SG Home" /></a>
+<a href="https://learn.microsoft.com/en-us/users/weranganimsara-8637/transcript"><img src="https://img.shields.io/badge/Microsoft%20Learn-0078D4?style=for-the-badge&logo=microsoft&logoColor=white" alt="Microsoft Learn" /></a>
 <a href="https://github.com/weranganimsara"><img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub" /></a>
-<a href="mailto:weranganimsara2007@gmail.com"><img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" /></a>
+<a href="mailto:weranganimsara2007@gmail.com"><img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:weranganimsara2007@gmail.com)
 
 <br><br>
 
