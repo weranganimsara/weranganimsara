@@ -11,8 +11,10 @@
 
 [![Portfolio](https://img.shields.io/badge/Portfolio-weraxx.sghome.space-0284c7?style=for-the-badge&logo=google-chrome&logoColor=white)](https://weraxx.sghome.space)
 [![Ecosystem](https://img.shields.io/badge/Ecosystem-SG%20Home-818cf8?style=for-the-badge&logo=server&logoColor=white)](https://sghome.space)
+[![Foundational C#](https://img.shields.io/badge/C%23%20with%20Microsoft-Certified-239120?style=for-the-badge&logo=csharp&logoColor=white)](https://www.freecodecamp.org/certification/weranganimsara/foundational-c-sharp-with-microsoft)
+[![Back-End APIs](https://img.shields.io/badge/Back--End%20%26%20APIs-Certified-0a0a23?style=for-the-badge&logo=node.js&logoColor=white)](https://www.freecodecamp.org/certification/weranganimsara/back-end-development-and-apis-v9)
+[![A2 English](https://img.shields.io/badge/A2%20English%20for%20Devs-Certified-1877F2?style=for-the-badge&logo=freecodecamp&logoColor=white)](https://www.freecodecamp.org/certification/weranganimsara/a2-english-for-developers)
 [![Microsoft Learn](https://img.shields.io/badge/Microsoft%20Learn-WerangaNimsara--8637-0078D4?style=for-the-badge&logo=microsoft&logoColor=white)](https://learn.microsoft.com/en-us/users/weranganimsara-8637/transcript)
-[![freeCodeCamp Certified](https://img.shields.io/badge/Verified%20Cert-freeCodeCamp%20A2%20English-0a0a23?style=for-the-badge&logo=freecodecamp&logoColor=white)](https://freecodecamp.org/certification/fcc-357a9b11-bde4-48dc-92f3-7b936ec15724/a2-english-for-developers)
 [![VPS Infra](https://img.shields.io/badge/VPS%20Infra-Ubuntu%20%7C%203X--UI-f59e0b?style=for-the-badge&logo=ubuntu&logoColor=white)](https://github.com/weranganimsara)
 [![Location](https://img.shields.io/badge/Location-Sri%20Lanka%20🇱🇰-059669?style=for-the-badge&logo=googlemaps&logoColor=white)](https://github.com/weranganimsara)
 [![Contact](https://img.shields.io/badge/Email-Get%20in%20Touch-e11d48?style=for-the-badge&logo=gmail&logoColor=white)](mailto:weranganimsara2007@gmail.com)
@@ -41,8 +43,10 @@
 
 | Certification / Credential | Issuing Organization | Issue Date | Official Verification |
 |:---|:---|:---|:---:|
-| **A2 English for Developers (Beta)**<br><sub>CEFR Standard Grammar, Listening & Reading Competence</sub> | **freeCodeCamp** | October 1, 2026 | [**Verify Certificate ↗**](https://freecodecamp.org/certification/fcc-357a9b11-bde4-48dc-92f3-7b936ec15724/a2-english-for-developers) |
-| **Official Microsoft Transcript & AI/C# Credentials**<br><sub>Responsible AI, Prompt Engineering with Copilot & C# Core Systems</sub> | **Microsoft Learn** | October 1, 2026 | [**Verify Transcript ↗**](https://learn.microsoft.com/en-us/users/weranganimsara-8637/transcript) |
+| **Foundational C# with Microsoft**<br><sub>Core C#, Data Structures, Flow Control, Exception Handling & VS Code Debugging</sub> | **freeCodeCamp & Microsoft** | October 2026 | [![Verify Badge](https://img.shields.io/badge/Verify_Credential-2ecc71?style=flat-square&logo=checkmarx&logoColor=white)](https://www.freecodecamp.org/certification/weranganimsara/foundational-c-sharp-with-microsoft) |
+| **Back-End Development and APIs**<br><sub>Node.js, Express, MongoDB, Mongoose, RESTful APIs & Microservices</sub> | **freeCodeCamp** | October 2026 | [![Verify Badge](https://img.shields.io/badge/Verify_Credential-2ecc71?style=flat-square&logo=checkmarx&logoColor=white)](https://www.freecodecamp.org/certification/weranganimsara/back-end-development-and-apis-v9) |
+| **A2 English for Developers (Beta)**<br><sub>CEFR Standard Professional Tech Communication, Workplace Reading & Listening</sub> | **freeCodeCamp** | October 2026 | [![Verify Badge](https://img.shields.io/badge/Verify_Credential-2ecc71?style=flat-square&logo=checkmarx&logoColor=white)](https://www.freecodecamp.org/certification/weranganimsara/a2-english-for-developers) |
+| **Official Microsoft Transcript & AI/C# Credentials**<br><sub>Responsible AI, Prompt Engineering with Copilot & C# Core Systems</sub> | **Microsoft Learn** | October 2026 | [![Verify Badge](https://img.shields.io/badge/Verify_Transcript-0078D4?style=flat-square&logo=microsoft&logoColor=white)](https://learn.microsoft.com/en-us/users/weranganimsara-8637/transcript) |
 
 ---
 
